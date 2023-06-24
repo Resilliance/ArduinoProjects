@@ -54,11 +54,28 @@ void loop() {
   else 
   {
     Serial.println("Found an extra scenario!");
+    /* 
+    Extra Scenarios:
+    - lir and flir are blocked
+    - lir and frir are blocked
+    - rir and flir are blocked
+    - rir and frir are blocked
+    */
   }
 
   /*
   Notes:
-  
+  - Difficulties in figuring out how to deal with the data DURING a turn (left/right)
+  - Possible solution: Having a gyroscope keep track of the current orientation vs the origin orientation
+    this is only a possible solution given that I'm designing this under the assumption that I would use this 
+    IR array in a micromouse for a way to solve a maze with standardized design principles
+  - Considerations for future design decisions (still assuming this would be in a micromouse for competition):
+    - Width of the PCB
+    - How much affect would a height difference make when it comes to accuracy and reliability
+    - Power consumption/storage: As more components are added onto this project
+    - Is knowing the distance from the edge of the build to an obstacle necessary for operation?
+  - I think the only way to find out all of the nuances of building an autonomous vehicle is to just go ahead
+    and build it! (Buying Motors w/ gearboxes and wheels now)
   */
 
 
