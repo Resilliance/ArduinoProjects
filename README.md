@@ -5,3 +5,4 @@ I'm fascinated with the interplay of software and hardware, so here's all my lit
 - dual motor setup: Driving 2 motos with L298N driver
 - forward backward irsensor: Practicing taking 2 IR sensor inputs (HW-201)
 - motors w ir sensors: Motor stopping when obstacle detected by IR sensors
+- ir stepper: Trying to control a Stepper Motor (28BYJ-48) with an IR sensor (HW-201)
